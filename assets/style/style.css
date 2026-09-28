@@ -1,0 +1,91 @@
+/*******************
+    RESET CSS
+*******************/
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    font-size: 16px;
+}
+
+/******************
+    HEADER
+******************/
+header {
+    height: 15vh;
+    display: flex;
+    padding-left: 64px;
+    padding-right: 64px;
+    min-width: 200px;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 3.5rem;
+}
+
+/******************
+    FOOTER
+******************/
+footer {
+    height: 5vh;
+    background-color: #333;
+}
+
+/******************
+    MAIN
+******************/
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+/******************
+    MAP
+******************/
+#map {
+    height: 80vh;
+    flex-grow: 1;
+}
+
+/******************
+    METEO
+******************/
+h1 {
+    font-size: 1.4rem;
+}
+
+i {
+    color: orange;
+    font-size: 3rem;
+    margin: 16px 0;
+}
+
+.cardMeteo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 64px;
+    margin-left: 64px;
+    margin-right: 64px;
+    width: 15vw;
+    min-width: 200px;
+}
+
+button {
+    background-color: forestgreen;
+    border: 0;
+    border-radius: 25px;
+    color: white;
+    height: 50px;
+    width: 150px;
+}
